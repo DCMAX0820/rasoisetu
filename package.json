@@ -72,3 +72,8 @@
     "typescript": "^5"
   }
 }
+"homepage": "https://dcmax0820.github.io/rasoisetu",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
